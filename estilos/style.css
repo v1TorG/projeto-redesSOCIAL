@@ -13,7 +13,8 @@ html, body{
 }
 
 body{
-    background: url(../imagens/fundo-future.jpg) no-repeat top center;
+    /*em breve mudar o fundo do celular para uma apresentação minha*/
+    background: url(../imagens/space-fundo.png) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -28,18 +29,38 @@ section#cel{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 627px;
+    height: 603px;
     width: 311px;
-    background: url('../imagens/frame-celular.png') no-repeat;
+    background: url('../imagens/celular-novo.png') no-repeat;
 }
 
 iframe#tela{
     position: relative;
-    top: 9px;
-    left: 16px;
-    width: 278px;
-    height: 603px;
+    top: 11px;
+    left: 14px;
+    width: 283px;
+    height: 581px;   
     
-    
-    border-radius: 30px;
+    border-radius: 37px;
+}
+
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+
+}
+section#redes-sociais img:hover{
+    border: 2px solid rgba(223, 238, 246, 0.757);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(121, 106, 206, 0.463);
+    transition: transform.3s, border.1s;
+
 }
