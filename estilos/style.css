@@ -13,7 +13,6 @@ html, body{
 }
 
 body{
-    /*em breve mudar o fundo do celular para uma apresentação minha*/
     background: url(../imagens/space-fundo.png) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
@@ -43,10 +42,10 @@ iframe#tela{
     
     border-radius: 37px;
 }
-
+/*
 section#redes-sociais{
     text-align: right;
-}
+}*/
 
 section#redes-sociais img{
     width: 50px;
